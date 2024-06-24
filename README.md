@@ -69,5 +69,22 @@ if movie_recommendations:
 else:
     print('No close match found.')
 ```
+## Output Example
+```python
+Enter your favorite movie name: Avatar
+Top 10 Movies Suggested for You:
+
+1. Avatar
+2. The Girl on the Train
+3. Act of Valor
+4. Donnie Darko
+5. Precious
+6. Freaky Friday
+7. The Opposite Sex
+8. Heaven is for Real
+9. Run Lola Run
+10. Elizabethtown
+
+```
 ## Explanation
 * This project demonstrates how to build a basic movie recommendation system using content-based filtering and cosine similarity. It suggests movies similar to a user-provided favorite movie based on movie attributes like genre, keywords, cast, and director.
